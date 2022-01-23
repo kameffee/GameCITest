@@ -9,7 +9,7 @@ namespace GameCITest.Tests.EditMode
 {
     public class CalculatorTest
     {
-        private Calculator _calculator = new Calculator();
+        private Calculator _calculator = new();
 
         [Test]
         public void SumTest()

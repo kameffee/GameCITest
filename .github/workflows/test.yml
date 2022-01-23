@@ -1,7 +1,12 @@
 name: Run EditMode and PlayMode Test
 
-on: 
-  workflow_dispatch: {}
+on:
+  pull_request:
+    branches:
+      - feature/*
+  push:
+    branches:
+      - feature/*
 
 jobs:
   test:
