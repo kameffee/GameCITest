@@ -1,10 +1,10 @@
 {
-    "name": "Tests",
-    "rootNamespace": "",
+    "name": "EditMode",
+    "rootNamespace": "GameCITest.Tests.EditMode",
     "references": [
-        "UnityEngine.TestRunner",
+        "Scripts",
         "UnityEditor.TestRunner",
-        "Scripts"
+        "UnityEngine.TestRunner"
     ],
     "includePlatforms": [
         "Editor"
@@ -15,7 +15,7 @@
     "precompiledReferences": [
         "nunit.framework.dll"
     ],
-    "autoReferenced": false,
+    "autoReferenced": true,
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],
